@@ -13,7 +13,7 @@ class MockRobot:
 
         pub_robot_vel = rospy.Publisher("~mock_vel", Twist, queue_size=10)
 
-        rate = 5
+        rate = 5 # nombre d'envois par seconde
         r = rospy.Rate(rate)
 
         rospy.loginfo("Starting mock_robot_node. Message rate(hz): " + str(r))
