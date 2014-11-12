@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="capra_mock" type="mock_robot_node.py" name="mock_robot_node" output="screen" />
+    <node pkg="capra_mock" type="tornado_server.py" name="tornado_server" output="screen" />
+</launch>

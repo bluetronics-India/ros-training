@@ -1,0 +1,8 @@
+prefix=/home/yohan/ros-training/devel
+
+Name: capra_controlpanel
+Description: Description of capra_controlpanel
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yohan/ros-training/devel/lib 
+Requires: message_runtime
