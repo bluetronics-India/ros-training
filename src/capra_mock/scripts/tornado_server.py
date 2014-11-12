@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+ # -*- coding: utf-8 -*-
 
 import rospy
 
@@ -24,7 +25,7 @@ def callback(data):
 
 ## La node ROS. Lors de la réception d'un message sur le topic /mock_robot_node/mock_vel",
 ## la fonction callback ci-haut est appelée
-class MockRobot:
+class RosNode:
 
     def __init__(self):
 
@@ -44,6 +45,6 @@ if __name__ == "__main__":
      ## la node ROS
 
     try:
-        MockRobot()
+        RosNode()
     except rospy.ROSInterruptException:
         pass
